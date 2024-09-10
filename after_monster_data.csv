@@ -1,4 +1,4 @@
-monster_no,name,hp,mp,power,defense,special_power
+monster_no,name,hp,mp,power,defence,special_power
 1,お化けキノコ,40,1,20,10,15
 2,デスバット,40,1,30,20,20
 3,ゾンビ,180,0,25,0,0

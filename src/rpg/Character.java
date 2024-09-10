@@ -5,15 +5,15 @@ public abstract class Character {
 	private int hp;
 	private int mp;
 	private int power;
-	private int defense;
+	private int defence;
 	private int specialPower;
 	
 	public void attack(Character ch) {
 		int damage;
 		System.out.println(this.getName() + "の攻撃！");
-		if (ch.getHp() >= this.getPower() - ch.getDefense()) {
-			ch.setHp(ch.getHp() - (this.getPower() - ch.getDefense()));
-			damage = this.getPower() - ch.getDefense();
+		if (ch.getHp() >= this.getPower() - ch.getDefence()) {
+			ch.setHp(ch.getHp() - (this.getPower() - ch.getDefence()));
+			damage = this.getPower() - ch.getDefence();
 		}else {
 			damage = ch.getHp();
 			ch.setHp(0);
@@ -78,11 +78,11 @@ public abstract class Character {
 	public void setPower(int power) {
 		this.power = power;
 	}
-	public int getDefense() {
-		return defense;
+	public int getDefence() {
+		return defence;
 	}
-	public void setDefense(int defense) {
-		this.defense = defense;
+	public void setDefence(int defence) {
+		this.defence = defence;
 	}
 	public int getSpecialPower() {
 		return specialPower;

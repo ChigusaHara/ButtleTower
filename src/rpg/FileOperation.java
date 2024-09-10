@@ -23,7 +23,8 @@ public class FileOperation {
 			heroData[0] = Integer.parseInt(p.getProperty("hero_hp"));
 			heroData[1] = Integer.parseInt(p.getProperty("hero_mp"));
 			heroData[2] = Integer.parseInt(p.getProperty("hero_power"));
-			heroData[3] = Integer.parseInt(p.getProperty("hero_defense"));
+			heroData[3] = Integer.parseInt(p.getProperty("hero_defenc"
+					+ "e"));
 			heroData[4] = Integer.parseInt(p.getProperty("hero_special_power"));
 			
 			

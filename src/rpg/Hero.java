@@ -14,13 +14,13 @@ public class Hero extends Character{
 		this.setHp(heroData[0]);
 		this.setMp(heroData[1]);
 		this.setPower(heroData[2]);
-		this.setDefense(heroData[3]);
+		this.setDefence(heroData[3]);
 		this.setSpecialPower(heroData[4]);
 		
 		System.out.println(this.getName() + "のステータス");
 		System.out.println("名前:" + this.getName() + " HP:" + this.getHp() 
 							+ " MP:"+ this.getMp() + "\n攻撃力:" + this.getPower() 
-							+ " 防御力:" + this.getDefense() + " 必殺技:" + this.getSpecialPower());
+							+ " 防御力:" + this.getDefence() + " 必殺技:" + this.getSpecialPower());
 	}
 	
 	public void useSpodri() {

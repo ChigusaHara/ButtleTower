@@ -1,4 +1,4 @@
-monster_no,name,hp,mp,power,defense,special_power
+monster_no,name,hp,mp,power,defence,special_power
 1,スライム,50,0,15,5,0
 2,ゴブリン,70,0,20,10,0
 3,ワーウルフ,130,1,30,0,30

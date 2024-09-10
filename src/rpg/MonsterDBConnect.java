@@ -45,7 +45,7 @@ public class MonsterDBConnect {
 		String[] data = new String[6];
 		
 		StringBuilder sql = new StringBuilder();
-		sql.append("SELECT name, hp, mp, power, defense, special_power FROM monster WHERE monster_no = ?");
+		sql.append("SELECT name, hp, mp, power, defence, special_power FROM monster WHERE monster_no = ?");
 		
 		try (Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
 				PreparedStatement pst = con.prepareStatement(sql.toString());){
@@ -56,7 +56,7 @@ public class MonsterDBConnect {
 				data[1] = rs.getString("hp");
 				data[2] = rs.getString("mp");
 				data[3] = rs.getString("power");
-				data[4] = rs.getString("defense");
+				data[4] = rs.getString("defence");
 				data[5] = rs.getString("special_power");
 			}
 		} catch (Exception e) {
@@ -99,7 +99,7 @@ public class MonsterDBConnect {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-		}//monster数分登録
+		}//monsterz登録
 	}
 	
 	

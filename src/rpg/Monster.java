@@ -9,7 +9,7 @@ public class Monster extends Character{
 		this.setHp(Integer.parseInt(data[1]));
 		this.setMp(Integer.parseInt(data[2]));
 		this.setPower(Integer.parseInt(data[3]));
-		this.setDefense(Integer.parseInt(data[4]));
+		this.setDefence(Integer.parseInt(data[4]));
 		this.setSpecialPower(Integer.parseInt(data[5]));
 	}
 	
